@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34302.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7957E398-5F2D-42F9-BD9D-B57759EE4885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7151CF08-4609-491A-8FA1-8D50DA4F907B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{23C1B241-A696-4CBA-88ED-C0AFF5D54789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisCourtBookings.Domain", "TennisCourtBookings.Domain\TennisCourtBookings.Domain.csproj", "{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisCourtBookings.Application", "TennisCourtBookings.Application\TennisCourtBookings.Application.csproj", "{09C2A15B-59D3-4F26-8B47-16FFC934C4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisCourtBookings.Persistence", "TennisCourtBookings.Persistence\TennisCourtBookings.Persistence.csproj", "{A94C521C-5E57-4A30-83B1-7A7DBDD44726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisCourtBookings.WebApi", "TennisCourtBookings.WebApi\TennisCourtBookings.WebApi.csproj", "{34951532-3F76-4E91-A51D-98BB1E75E1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C2A15B-59D3-4F26-8B47-16FFC934C4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C2A15B-59D3-4F26-8B47-16FFC934C4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C2A15B-59D3-4F26-8B47-16FFC934C4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C2A15B-59D3-4F26-8B47-16FFC934C4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94C521C-5E57-4A30-83B1-7A7DBDD44726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94C521C-5E57-4A30-83B1-7A7DBDD44726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94C521C-5E57-4A30-83B1-7A7DBDD44726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94C521C-5E57-4A30-83B1-7A7DBDD44726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34951532-3F76-4E91-A51D-98BB1E75E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34951532-3F76-4E91-A51D-98BB1E75E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34951532-3F76-4E91-A51D-98BB1E75E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34951532-3F76-4E91-A51D-98BB1E75E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB7A344B-CEE2-47DE-8F53-2E4A2A0428ED} = {7957E398-5F2D-42F9-BD9D-B57759EE4885}
+		{09C2A15B-59D3-4F26-8B47-16FFC934C4D4} = {7957E398-5F2D-42F9-BD9D-B57759EE4885}
+		{A94C521C-5E57-4A30-83B1-7A7DBDD44726} = {7151CF08-4609-491A-8FA1-8D50DA4F907B}
+		{34951532-3F76-4E91-A51D-98BB1E75E1AB} = {23C1B241-A696-4CBA-88ED-C0AFF5D54789}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2C50923-8407-4747-BB05-1415DC83ED92}
+	EndGlobalSection
+EndGlobal

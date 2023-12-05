@@ -1,0 +1,11 @@
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\bin\Debug\net6.0\TennisCourtBookings.Domain.deps.json
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\bin\Debug\net6.0\TennisCourtBookings.Domain.dll
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\bin\Debug\net6.0\TennisCourtBookings.Domain.pdb
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.AssemblyInfoInputs.cache
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.AssemblyInfo.cs
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.dll
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\refint\TennisCourtBookings.Domain.dll
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.pdb
+C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\ref\TennisCourtBookings.Domain.dll
