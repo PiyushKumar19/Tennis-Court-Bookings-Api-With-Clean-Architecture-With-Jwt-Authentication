@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 
 namespace TennisCourtBookings.Application.Features.CourtBookingsFeatures.UpdateCourtBookings
 {
-    public sealed record UpdateCourtBookingsRequest(Guid CourtId, string Name, DateTime BookedDate, float Price) : IRequest<UpdateCourtBookingsResponse>;
+    public sealed record UpdateCourtBookingsRequest(Guid Id, Guid CourtId, string CourtName, DateTime BookedDate, float Price) : IRequest<UpdateCourtBookingsResponse>;
 
 }

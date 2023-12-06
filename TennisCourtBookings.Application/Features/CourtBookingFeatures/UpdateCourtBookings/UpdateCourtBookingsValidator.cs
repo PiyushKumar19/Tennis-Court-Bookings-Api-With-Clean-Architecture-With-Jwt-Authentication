@@ -12,8 +12,8 @@ namespace TennisCourtBookings.Application.Features.CourtBookingsFeatures.UpdateC
     {
         public UpdateCourtBookingsValidator()
         {
-            RuleFor(x => x.CourtId).NotEmpty();
-            RuleFor(x => x.Name).NotEmpty().MinimumLength(3).MaximumLength(50);
+            RuleFor(x => x.Id).NotEmpty();
+            RuleFor(x => x.CourtName).NotEmpty().MinimumLength(3).MaximumLength(50);
         }
     }
 }
