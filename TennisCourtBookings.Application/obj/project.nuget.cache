@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ovKLdOizs/5qyjbTAHpSr7dwN3N1dy9AxzwRooR/sM44v6/tVJ43Bgry3uU2Ainr/+comOTPCFYbNRb8iC5JMg==",
+  "dgSpecHash": "T5DwmRvlCno/Zusx96lgow9Z9VPt0f1k9YzUPCYrQ8++K1L/EtdLclGl9gaB+LcIeAevYBzLtphya7xB9s9dOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jayan\\source\\repos\\Tennnis Court Bookings\\TennisCourtBookings\\TennisCourtBookings.Application\\TennisCourtBookings.Application.csproj",
+  "projectFilePath": "E:\\Temp\\Court Bookings\\TennisCourtBookings\\TennisCourtBookings.Application\\TennisCourtBookings.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayan\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -18,8 +18,13 @@
     "C:\\Users\\jayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\jayan\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\jayan\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\jayan\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\jayan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\jayan\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\jayan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\jayan\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

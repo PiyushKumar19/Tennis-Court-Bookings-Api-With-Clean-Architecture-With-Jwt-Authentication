@@ -16,16 +16,17 @@ namespace TennisCourtBookings.Persistence.Repositories
         {
         }
 
-        public Task<User> GetByEmail(string email, CancellationToken cancellationToken)
+        public async Task<User> GetByEmail(string email, CancellationToken cancellationToken)
         {
-            return Context.Users.FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+            var user = await Context.Users.FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+            return user;
         }
 
         public User UpdateUser(User model, CancellationToken cancellationToken)
         {
             var user = Context.Users.FirstOrDefault(x => x.Id == model.Id);
             user.Email = model.Email;
-            user.Name = model.Name;
+            user.Username = model.Username;
             user.DateUpdated = DateTime.Now;
 
             Context.Update(user);
