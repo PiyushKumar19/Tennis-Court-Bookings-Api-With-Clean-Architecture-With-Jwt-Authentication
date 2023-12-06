@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using TennisCourtBookings.Application.Features.UserFeatures.UpdateUser;
 
-namespace TennisCourtBookings.Application.Features.UserFeatures.RegisterUser
+namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
 {
-    public sealed class RegisterUserValidator : AbstractValidator<RegisterUserRequest>
+    public sealed class LoginUserValidator : AbstractValidator<LoginUserRequest>
     {
-        public RegisterUserValidator()
+        public LoginUserValidator()
         {
             RuleFor(x => x.Email).NotEmpty().MaximumLength(50).EmailAddress();
             RuleFor(x => x.Password).NotEmpty().MinimumLength(3).MaximumLength(20);
