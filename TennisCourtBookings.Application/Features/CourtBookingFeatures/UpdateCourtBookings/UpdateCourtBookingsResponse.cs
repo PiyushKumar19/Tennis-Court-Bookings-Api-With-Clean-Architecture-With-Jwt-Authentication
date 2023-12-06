@@ -8,7 +8,10 @@ namespace TennisCourtBookings.Application.Features.CourtBookingsFeatures.UpdateC
 {
     public sealed record UpdateCourtBookingsResponse
     {
+        public Guid Id { get; set; }
         public Guid CourtId { get; set; }
-        public string Name { get; set; }
+        public string CourtName { get; set; }
+        public float Price { get; set; }
+        public DateTime BookedDate { get; set; }
     }
 }

@@ -8,8 +8,10 @@ namespace TennisCourtBookings.Application.Features.CourtBookingsFeatures.CreateC
 {
     public sealed record CreateCourtBookingsResponse
     {
+        public Guid Id { get; set; }
         public Guid CourtId { get; set; }
         public string CourtName { get; set; }
         public float Price { get; set; }
+        public DateTime BookedDate { get; set; }
     }
 }

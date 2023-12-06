@@ -34,7 +34,7 @@ namespace TennisCourtBookings.Persistence.Repositories
 
         public Guid DeleteTennisCourt(TennisCourt model, CancellationToken cancellationToken)
         {
-            var booking = Context.CourtBookings.FirstOrDefault(x => x.Id == model.Id);
+            var booking = Context.TennisCourts.FirstOrDefault(x => x.Id == model.Id);
             if (booking != null)
             {
                 Context.Remove(booking);

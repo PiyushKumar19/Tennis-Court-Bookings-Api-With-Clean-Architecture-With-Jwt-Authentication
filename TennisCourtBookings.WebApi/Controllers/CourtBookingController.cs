@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TennisCourtBookings.Application.Features.CourtBookingsFeatures.CreateCourtBookings;
@@ -12,6 +13,7 @@ using TennisCourtBookings.Application.Features.UserFeatures.UpdateUser;
 
 namespace TennisCourtBookings.WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("CourtBooking")]
     public class CourtBookingController : ControllerBase

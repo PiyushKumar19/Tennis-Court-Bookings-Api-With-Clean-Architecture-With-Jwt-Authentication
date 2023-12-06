@@ -21,7 +21,7 @@ namespace TennisCourtBookings.WebApi.Controllers
     [Route("user")]
     public class UserController : ControllerBase
     {
-        //public static User user = new User();
+
         private readonly IConfiguration configuration;
         private readonly IUserService userService;
         private readonly IMediator _mediator;
@@ -38,8 +38,6 @@ namespace TennisCourtBookings.WebApi.Controllers
         {
             var username = userService.GetMyName();
 
-            //var userName = User?.Identity?.Name;
-            //var userName2 = User?.FindFirstValue(ClaimTypes.Name);
             var role = User?.FindFirstValue(ClaimTypes.Role);
             return Ok(new { username, role });
         }
