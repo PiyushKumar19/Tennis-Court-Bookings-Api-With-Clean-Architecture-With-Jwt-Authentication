@@ -11,7 +11,7 @@ using TennisCourtBookings.Application.Features.UserFeatures.GetAllUser;
 namespace TennisCourtBookings.WebApi.Controllers
 {
     [ApiController]
-    [Route("user")]
+    [Route("TennisCourt")]
     public class TennisCourtController : ControllerBase
     {
         private readonly IMediator _mediator;
