@@ -6,10 +6,8 @@ using TennisCourtBookings.Application.Features.CourtBookingsFeatures.CreateCourt
 using TennisCourtBookings.Application.Features.CourtBookingsFeatures.DeleteCourtBookings;
 using TennisCourtBookings.Application.Features.CourtBookingsFeatures.GetAllCourtBookings;
 using TennisCourtBookings.Application.Features.CourtBookingsFeatures.UpdateCourtBookings;
-using TennisCourtBookings.Application.Features.UserFeatures.CreateUser;
 using TennisCourtBookings.Application.Features.UserFeatures.DeleteUser;
 using TennisCourtBookings.Application.Features.UserFeatures.GetAllUser;
-using TennisCourtBookings.Application.Features.UserFeatures.UpdateUser;
 
 namespace TennisCourtBookings.WebApi.Controllers
 {

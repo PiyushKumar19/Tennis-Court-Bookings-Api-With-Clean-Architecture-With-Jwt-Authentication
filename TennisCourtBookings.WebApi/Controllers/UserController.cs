@@ -6,12 +6,10 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
-using TennisCourtBookings.Application.Features.UserFeatures.CreateUser;
 using TennisCourtBookings.Application.Features.UserFeatures.DeleteUser;
 using TennisCourtBookings.Application.Features.UserFeatures.GetAllUser;
 using TennisCourtBookings.Application.Features.UserFeatures.LoginUser;
 using TennisCourtBookings.Application.Features.UserFeatures.RegisterUser;
-using TennisCourtBookings.Application.Features.UserFeatures.UpdateUser;
 using TennisCourtBookings.Domain.Entities;
 using TennisCourtBookings.Persistence.Services;
 
@@ -65,23 +63,7 @@ namespace TennisCourtBookings.WebApi.Controllers
             return Ok(response);
         }
 
-        [HttpPost("createUser")]
-        public async Task<ActionResult<CreateUserResponse>> Create(CreateUserRequest request,
-            CancellationToken cancellationToken)
-        {
-            var response = await _mediator.Send(request, cancellationToken);
-            return Ok(response);
-        }
-
-        [HttpPut("UpdateUser")]
-        public async Task<ActionResult<UpdateUserResponse>> Update(UpdateUserRequest request,
-            CancellationToken cancellationToken)
-        {
-            var response = await _mediator.Send(request, cancellationToken);
-            return Ok(response);
-        }
-
-        [HttpDelete("DeleteUser")]
+        [HttpDelete("DeleteUser"), Authorize]
         public async Task<ActionResult<DeleteUserResponse>> Delete(DeleteUserRequest request,
             CancellationToken cancellationToken)
         {

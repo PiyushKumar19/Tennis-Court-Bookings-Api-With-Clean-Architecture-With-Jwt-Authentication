@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using TennisCourtBookings.Application.Features.UserFeatures.GetAllUser;
-using TennisCourtBookings.Application.Features.UserFeatures.UpdateUser;
 using TennisCourtBookings.Application.Repositories;
 using TennisCourtBookings.Domain.Entities;
 using MediatR;

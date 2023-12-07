@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using TennisCourtBookings.Application.Features.UserFeatures.CreateUser;
 using TennisCourtBookings.Application.Repositories;
 using TennisCourtBookings.Domain.Entities;
 using MediatR;
