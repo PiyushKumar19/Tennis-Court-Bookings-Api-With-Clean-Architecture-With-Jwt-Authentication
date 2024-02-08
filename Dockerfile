@@ -8,11 +8,11 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["TennisCourtBookings.WebApi/TennisCourtBookings.WebApi.csproj", "TennisCourtBookings.WebApi/"]
-COPY ["TennisCourtBookings.Application/TennisCourtBookings.Application.csproj", "TennisCourtBookings.Application/"]
-COPY ["TennisCourtBookings.Domain/TennisCourtBookings.Domain.csproj", "TennisCourtBookings.Domain/"]
-COPY ["TennisCourtBookings.Persistence/TennisCourtBookings.Persistence.csproj", "TennisCourtBookings.Persistence/"]
-RUN dotnet restore "./TennisCourtBookings.WebApi/./TennisCourtBookings.WebApi.csproj"
+COPY ["./TennisCourtBookings.WebApi.csproj", "TennisCourtBookings.WebApi/"]
+COPY ["./TennisCourtBookings.Application.csproj", "TennisCourtBookings.Application/"]
+COPY ["./TennisCourtBookings.Domain.csproj", "TennisCourtBookings.Domain/"]
+COPY ["./TennisCourtBookings.Persistence.csproj", "TennisCourtBookings.Persistence/"]
+RUN dotnet restore "./././TennisCourtBookings.WebApi.csproj"
 COPY . .
 WORKDIR "/src/TennisCourtBookings.WebApi"
 RUN dotnet build "./TennisCourtBookings.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
