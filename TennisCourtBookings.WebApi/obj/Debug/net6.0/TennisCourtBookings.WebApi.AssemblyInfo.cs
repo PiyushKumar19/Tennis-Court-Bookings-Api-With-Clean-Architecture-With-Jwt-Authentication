@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("803f56e7-50f9-4ad5-ad1f-bfc5f5a55fc3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TennisCourtBookings.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TennisCourtBookings.Persistence
-build_property.ProjectDir = E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\
+build_property.ProjectDir = E:\Test ground\TennisCourtBooking From git\Tennis-Court-Bookings-Api-With-Clean-Architecture-With-Jwt-Authentication\TennisCourtBookings.Persistence\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

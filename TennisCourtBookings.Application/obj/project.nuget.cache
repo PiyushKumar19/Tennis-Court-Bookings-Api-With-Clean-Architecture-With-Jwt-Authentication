@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T5DwmRvlCno/Zusx96lgow9Z9VPt0f1k9YzUPCYrQ8++K1L/EtdLclGl9gaB+LcIeAevYBzLtphya7xB9s9dOA==",
+  "dgSpecHash": "jNSq+uZwy3PEacMupFKyt0dgechJn6FYHzo9Qm9mZca6hzM6wO4ZRpC6PRVIlJ3twJSdL5iExpPY7KUbP3vuqA==",
   "success": true,
-  "projectFilePath": "E:\\Temp\\Court Bookings\\TennisCourtBookings\\TennisCourtBookings.Application\\TennisCourtBookings.Application.csproj",
+  "projectFilePath": "E:\\Test ground\\TennisCourtBooking From git\\Tennis-Court-Bookings-Api-With-Clean-Architecture-With-Jwt-Authentication\\TennisCourtBookings.Application\\TennisCourtBookings.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayan\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -26,5 +26,26 @@
     "C:\\Users\\jayan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jayan\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.8.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.8.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
