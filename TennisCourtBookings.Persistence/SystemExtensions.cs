@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +17,18 @@ namespace TennisCourtBookings.Persistence
 {
     public static class ServiceExtensions
     {
-        public static void ConfigurePersistence(this IServiceCollection services, IConfiguration configuration)
+        public static void ConfigurePersistence(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment hostingEnvironment)
         {
-            var connectionString = configuration.GetConnectionString("DefaultString");
-            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
+            if(!hostingEnvironment.IsProduction())
+            {
+                var connectionString = configuration.GetConnectionString("ProductionString");
+                services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
+            }
+            else
+            {
+                var connectionString = configuration.GetConnectionString("DefaultString");
+                services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
+            }
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserRepository, UserRepository>();

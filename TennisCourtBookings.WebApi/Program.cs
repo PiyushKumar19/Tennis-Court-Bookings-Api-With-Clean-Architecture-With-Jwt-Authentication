@@ -18,7 +18,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-builder.Services.ConfigurePersistence(builder.Configuration);
+var hostingEnv = builder.Environment;
+
+builder.Services.ConfigurePersistence(builder.Configuration, hostingEnv);
 builder.Services.ConfigureApplication();
 
 builder.Services.ConfigureApiBehavior();
@@ -58,6 +60,7 @@ var dataContext = serviceScope.ServiceProvider.GetService<DataContext>();
 await dataContext?.Database.MigrateAsync();
 
 // Configure the HTTP request pipeline.
+if(app.Environment.IsProduction())
 app.UseSwagger();
 app.UseSwaggerUI();
 
