@@ -19,16 +19,8 @@ namespace TennisCourtBookings.Persistence
     {
         public static void ConfigurePersistence(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment hostingEnvironment)
         {
-            if(!hostingEnvironment.IsProduction())
-            {
-                var connectionString = configuration.GetConnectionString("ProductionString");
-                services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
-            }
-            else
-            {
-                var connectionString = configuration.GetConnectionString("DefaultString");
-                services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
-            }
+            var connectionString = configuration.GetConnectionString("ProductionString");
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserRepository, UserRepository>();

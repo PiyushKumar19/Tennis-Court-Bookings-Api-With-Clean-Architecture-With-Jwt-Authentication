@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TennisCourtBookings.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f8ef6ba129c10424ef5c5c62a944b3c8f4bda0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TennisCourtBookings.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TennisCourtBookings.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
